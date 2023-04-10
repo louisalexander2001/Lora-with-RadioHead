@@ -1,3 +1,5 @@
+#ifndef _ADDRESSBOOK_H_
+#define _ADDRESSBOOK_H_
 // #include "hash.h"
 
 struct addressEntry {
@@ -7,3 +9,4 @@ struct addressEntry {
   int nodeID;
 };
 typedef struct addressEntry ADDENTRY;
+# endif /* _ADDRESSBOOK_H_ */
